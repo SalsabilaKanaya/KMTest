@@ -1,0 +1,50 @@
+
+1. SingleChildScrollView:
+   - Widget ini digunakan untuk mengizinkan konten dalam layar dapat digulir secara vertikal jika kontennya lebih panjang dari layar.
+
+2. Container:
+   - Container adalah widget yang digunakan untuk mengatur tata letak dan gaya dari elemen-elemen di dalamnya.
+
+3. Padding:
+   - Digunakan untuk memberikan jarak (padding) pada elemen-elemen di dalamnya.
+
+4. InkWell:
+   - Widget ini digunakan untuk membuat area responsif ketika diketuk.
+   - onTap: Mengatur aksi yang terjadi saat InkWell diketuk.
+   - splashColor: Mengatur warna latar belakang saat InkWell diketuk.
+   - Ink.image: Digunakan untuk menampilkan gambar dengan menggunakan AssetImage.
+
+5. Align:
+    - Digunakan untuk mengatur penempatan elemen ke posisi yang ditentukan.
+
+6. Text:
+    - Widget ini digunakan untuk menampilkan teks pada antarmuka pengguna.
+
+7. SizedBox:
+    - SizedBox adalah widget yang mengatur ukuran kotak kosong untuk memberikan jarak vertikal antara elemen-elemen.
+
+8. ListView.separated:
+    - Widget ini digunakan untuk menampilkan daftar elemen dengan pemisah di antara setiap elemen.
+    - physics: Mengatur perilaku scroll view.
+    - shrinkWrap: Mengatur apakah ListView harus mengubah ukuran saat dikemas.
+    - separatorBuilder: Mengatur builder untuk membangun widget pemisah antara elemen-elemen.
+    - itemCount: Jumlah elemen dalam daftar. item count ini bisa disesuaikan dengan data yang dipunya
+    - itemBuilder: Builder untuk membangun setiap elemen pada daftar.
+9. Third():
+    - Mengembalikan widget yang telah didefinisikan dalam file `third.dart` untuk setiap elemen pada daftar chat.
+
+Third Screen ini terdiri dari 2 file yang terpisah, yaitu file view dan file item. Pemisahan ini bertujuan untuk memisahkan logika antarmuka pengguna dengan logika item yang terkait. 
+
+Thirdscreen di folder view:
+   - Thirdscreen dalam folder view merupakan tampilan utama untuk layar ketiga dalam aplikasi. File ini berisi pengaturan dan komponen-komponen yang menampilkan konten utama 
+   dari layar tersebut.
+   - Pada Thirdscreen, digunakan widget seperti Container, Align, Text, dan lainnya untuk mengatur tampilan antarmuka pengguna secara keseluruhan.
+   - Pada Thirdscreen, digunakan juga widget ListView.separated untuk menampilkan daftar elemen dengan pemisah antara setiap elemen.
+
+Third di folder items:
+   - Third dalam folder items merupakan widget yang digunakan sebagai item dalam daftar pada layar ketiga.
+   - Pemisahan ini dilakukan untuk memisahkan logika dan tampilan dari setiap item pada daftar tersebut.
+   - Dengan memisahkan logika dan tampilan item ke dalam widget terpisah, kita dapat mengelola dan mengubah setiap item dengan lebih mudah dan terstruktur.
+
+Pemisahan ini membantu mengatur kode dengan lebih terorganisir dan memudahkan pengembangan serta pemeliharaan kode di masa depan. Selain itu, dengan pemisahan ini, 
+komponen-komponen dapat digunakan kembali (reusability) dengan mudah di tempat lain dalam aplikasi jika diperlukan. 

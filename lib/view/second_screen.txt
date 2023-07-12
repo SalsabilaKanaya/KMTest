@@ -1,0 +1,36 @@
+1. SingleChildScrollView: Widget ini digunakan untuk mengizinkan konten dalam layar dapat digulir secara vertikal jika kontennya 
+lebih panjang dari layar.
+
+2. Container: Container adalah widget yang digunakan untuk mengatur tata letak dan gaya dari elemen-elemen di dalamnya.
+
+3. Padding: Digunakan untuk memberikan jarak (padding) pada elemen-elemen di dalamnya.
+
+4. InkWell: Widget ini digunakan untuk membuat area responsif ketika area tombol atau button diketuk.
+
+5. onTap: Mengatur aksi yang terjadi saat InkWell diketuk.
+
+6. splashColor: Mengatur warna latar belakang saat InkWell diketuk.
+
+7. Ink.image: Digunakan untuk menampilkan gambar dengan menggunakan AssetImage.
+
+8. Align: Digunakan untuk mengatur penempatan elemen ke posisi yang ditentukan.
+
+9. Text: Widget ini digunakan untuk menampilkan teks pada antarmuka pengguna.
+
+10. textAlign: Mengatur penyejajaran teks.
+
+11. style: Mengatur gaya teks seperti ukuran, warna, dan jenis huruf.
+
+12. SizedBox: SizedBox adalah widget yang mengatur ukuran kotak kosong untuk memberikan jarak vertikal antara elemen-elemen.
+
+13. ButtonTheme dan ElevatedButton: Digunakan untuk membuat tombol "Choose a User".
+
+14. ButtonTheme digunakan untuk mengatur beberapa properti tombol seperti lebar, tinggi, dan gaya.
+
+15. ElevatedButton adalah tombol yang memiliki latar belakang berwarna dan bayangan.
+
+16. Navigator: Digunakan untuk melakukan navigasi ke layar ketiga (ThirdScreen) ketika tombol "Choose a User" ditekan.
+
+
+
+ 

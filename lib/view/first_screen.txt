@@ -1,0 +1,24 @@
+1. Image.asset: Digunakan untuk menampilkan gambar dari direktori aset aplikasi.
+
+2. SizedBox: SizedBox adalah widget yang mengatur ukuran kotak kosong untuk memberikan jarak vertikal antara elemen-elemen. SizedBox ini digunakan untuk memberikan jarak
+antara elemen-elemen agar tata letak terlihat lebih rapi.
+
+3. Container (Form Name): Container digunakan untuk mengelompokkan dan mengatur widget TextFormField yang berfungsi sebagai input teks untuk "Name".
+
+4. BoxDecoration digunakan untuk memberikan style seperti warna latar belakang dan border radius.
+
+5. TextFormField adalah sebuah input teks yang memiliki beberapa properti seperti decoration, obscureText, dll. Digunakan untuk menerima input teks dari pengguna dengan 
+berbagai properti seperti obscurity dan dekorasi.
+
+6. Container (Form Palindrome):Mirip dengan Container sebelumnya, digunakan untuk mengelompokkan dan mengatur widget TextFormField yang berfungsi sebagai input teks 
+untuk "Palindrome".
+
+7. ButtonTheme dan ElevatedButton: Digunakan untuk membuat tombol "CHECK" dan "NEXT". ButtonTheme digunakan untuk mengatur beberapa properti tombol seperti lebar, 
+tinggi, dan gaya.
+
+8. ElevatedButton adalah tombol yang memiliki latar belakang berwarna dan bayangan. Digunakan untuk membuat tombol dengan latar belakang berwarna dan bayangan.
+
+9. Navigator: Digunakan untuk melakukan navigasi ke layar kedua (SecondScreen) ketika tombol "NEXT" ditekan.
+
+
+
